@@ -15,9 +15,7 @@ let evens = {
 
 var odds = []
 
-for (let n of evens) {
-	if (n > 100)
-		break
+for (let n of evens if n < 100) {
 	odds.push(n + 1)
 }
 
